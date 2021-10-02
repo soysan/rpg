@@ -1,0 +1,41 @@
+.in-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(255,255,255, 0.15);
+}
+
+.nameWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInput {
+  height: 2rem;
+  padding: 0 0.5rem;
+}
+
+.input {
+  background-color: rgba(255,255,255, 0.15);
+  border: none;
+}
+
+.nameInput:focus {
+  outline: none;
+}
+
+.inputName {
+  height: 1rem;
+}
+
+.selectOp {
+  height: 2rem;
+  background: rgba(255,255,255, 0.15);
+  border: none;
+  color: white;
+}
